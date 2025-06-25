@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg) ![Django](https://img.shields.io/badge/django-4.0%2B-green.svg) ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange.svg) ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## 📖 Overview
+## Overview
 
 This repository provides a **recommendation system** designed for Django-based e-commerce applications. It combines multiple recommendation strategies to enhance user experience by suggesting relevant products. The system is built as a modular component that can be integrated into existing Django projects.
 
@@ -90,7 +90,7 @@ This is an example implementation for educational purposes, but it can be extend
        return render(request, 'product_detail.html', {'recommendations': recommendations})
    ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 django-ecommerce-recommender/
@@ -119,7 +119,7 @@ django-ecommerce-recommender/
   - Implementing caching for the `product_matrix`.
   - Handling large datasets with batch processing or sparse matrices.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! To contribute:
 1. Fork the repository.
@@ -130,15 +130,15 @@ Contributions are welcome! To contribute:
 
 Please include tests and documentation for new features.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Django](https://www.djangoproject.com/) and [scikit-learn](https://scikit-learn.org/).
 - Inspired by common e-commerce recommendation patterns.
 
 ---
 
-⭐ **Star this repository** if you find it useful! Feel free to open issues for questions or suggestions.
+**Star this repository** if you find it useful! Feel free to open issues for questions or suggestions.
