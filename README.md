@@ -95,9 +95,8 @@ This is an example implementation for educational purposes, but it can be extend
 ```
 django-ecommerce-recommender/
 ├── recommender.py          # Core recommendation logic
-├── requirements.txt        # Python dependencies
 ├── README.md              # Project documentation
-└── LICENSE                # MIT License file
+└── LICENSE.txt                # MIT License file
 ```
 
 ## 🛠️ Customization
@@ -133,7 +132,7 @@ Please include tests and documentation for new features.
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
