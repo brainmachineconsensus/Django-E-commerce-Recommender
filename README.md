@@ -99,7 +99,7 @@ django-ecommerce-recommender/
 └── LICENSE.txt                # MIT License file
 ```
 
-## 🛠️ Customization
+## Customization
 
 - **Model adaptation**: Modify `recommender.py` to match your `Product` and `Customer` model fields if they differ (e.g., change `category.name` or `orderplaced` references).
 - **Language support**: Adjust the `TfidfVectorizer` in `recommender.py` to support non-English languages by changing `stop_words='english'` to the appropriate language or a custom stop words list.
@@ -110,7 +110,7 @@ django-ecommerce-recommender/
   - Add user purchase history-based recommendations using collaborative filtering.
   - Incorporate product ratings or reviews into the recommendation logic.
 
-## ⚠️ Notes
+## Notes
 
 - The system assumes a populated database with sufficient product and order data for meaningful recommendations.
 - Logging is configured to use Python's `logging` module. Ensure your Django project has a logging configuration to capture logs (e.g., in `settings.py`).
