@@ -16,7 +16,7 @@ This repository provides a **recommendation system** designed for Django-based e
 
 This is an example implementation for educational purposes, but it can be extended for production use with optimizations like caching or batch processing.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
